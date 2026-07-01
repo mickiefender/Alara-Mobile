@@ -1,0 +1,72 @@
+name: alara
+description: "Alara is a dynamic Flutter app designed to revolutionize school management for teachers and students, offering seamless attendance tracking, AI-powered question generation, assignment management, and comprehensive performance insights."
+publish_to: "none"
+version: 1.0.0+2
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^8.1.0
+  provider: ^6.1.2
+  go_router: ^14.8.1
+  http: ^1.0.0
+  flutter_secure_storage: ^9.0.0
+  fl_chart: 0.68.0
+  file_picker: ^10.0.0
+  intl: 0.20.2
+  cached_network_image: ^3.0.0
+  url_launcher: ^6.3.2
+  image_picker: '>=1.1.2'
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
+  connectivity_plus: ^6.1.1
+  workmanager: ^0.5.2
+  path_provider: ^2.1.5
+  lottie: ^3.1.2
+  firebase_core: ^3.8.0
+  firebase_messaging: ^15.1.5
+  flutter_local_notifications: ^18.0.1
+  shared_preferences: ^2.3.0
+  smooth_page_indicator: ^1.2.0+3
+  flutter_svg: ^2.0.10+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.1
+  isar_generator: ^3.1.0+1
+  build_runner: ^2.4.13
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/Alara_logo.png
+    - assets/splash.json
+    - assets/ai_logo.png
+    - assets/Alara-app-icon.png
+    - assets/Alara-logo-no-bg.png
+    - assets/svg/
+    - assets/svg/student/
+    - assets/svg/Teacher/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/Alara-app-icon.png
+  remove_alpha_ios: true
+
+flutter_native_splash:
+  background_image: assets/splash_bg_red_black.png
+  image: assets/Alara_logo.png
+  android: true
+  ios: true
+  web: false
+  android_12:
+    color: "#000000"
+    image: assets/Alara_logo.png

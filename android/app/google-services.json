@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "666582617263",
+    "project_id": "alara-84d7b",
+    "storage_bucket": "alara-84d7b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666582617263:android:ba4ccf7ee875d251a5585a",
+        "android_client_info": {
+          "package_name": "com.vertex.alara"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9Zgq4xfinP6fwnWcD00HceS_vL53RCL0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
